@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\sportx_api.props" />
+</Project>

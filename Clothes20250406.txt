@@ -1,0 +1,334 @@
+2025-04-06 15:20:39.406 +05:30 [INF] User profile is available. Using 'C:\Users\Vishal Kochiyaniya\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-06 15:20:39.863 +05:30 [INF] Now listening on: https://localhost:7214
+2025-04-06 15:20:39.865 +05:30 [INF] Now listening on: http://localhost:5104
+2025-04-06 15:20:39.951 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-06 15:20:39.953 +05:30 [INF] Hosting environment: Development
+2025-04-06 15:20:39.955 +05:30 [INF] Content root path: C:\rku-projects\sportx\sportx_api
+2025-04-06 15:20:40.787 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7214/swagger - null null
+2025-04-06 15:20:41.012 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7214/swagger - 301 0 null 236.9192ms
+2025-04-06 15:20:41.018 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7214/swagger/index.html - null null
+2025-04-06 15:20:41.091 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7214/swagger/index.html - 200 null text/html;charset=utf-8 73.0317ms
+2025-04-06 15:20:41.093 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7214/swagger/swagger-ui.css - null null
+2025-04-06 15:20:41.093 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7214/swagger/swagger-ui-bundle.js - null null
+2025-04-06 15:20:41.093 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7214/swagger/swagger-ui-standalone-preset.js - null null
+2025-04-06 15:20:41.113 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7214/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 15:20:41.110 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7214/_vs/browserLink - null null
+2025-04-06 15:20:41.174 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7214/_framework/aspnetcore-browser-refresh.js - 200 16505 application/javascript; charset=utf-8 63.1338ms
+2025-04-06 15:20:41.211 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-04-06 15:20:41.211 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-04-06 15:20:41.218 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7214/swagger/swagger-ui.css - 200 143943 text/css 125.4392ms
+2025-04-06 15:20:41.226 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7214/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 132.4781ms
+2025-04-06 15:20:41.243 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-04-06 15:20:41.254 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7214/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 160.5078ms
+2025-04-06 15:20:41.298 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7214/_vs/browserLink - 200 null text/javascript; charset=UTF-8 187.7816ms
+2025-04-06 15:20:41.458 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7214/swagger/v1/swagger.json - null null
+2025-04-06 15:20:41.474 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/Chat/AllUsers" for actions - sportx_api.Controllers.UserControllers.ChatController.AllUsers (sportx_api),sportx_api.Controllers.AdminControllers.ChatController.AllUsers (sportx_api). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-04-06 15:20:41.487 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7214/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 29.7962ms
+2025-04-06 15:20:41.498 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7214/swagger/favicon-32x32.png - null null
+2025-04-06 15:20:41.502 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-04-06 15:20:41.506 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7214/swagger/favicon-32x32.png - 200 628 image/png 8.2838ms
+2025-04-06 15:21:59.055 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7214/swagger/index.html - null null
+2025-04-06 15:21:59.086 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7214/swagger/index.html - 200 null text/html;charset=utf-8 32.9035ms
+2025-04-06 15:21:59.168 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7214/_vs/browserLink - null null
+2025-04-06 15:21:59.168 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7214/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 15:21:59.183 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7214/_framework/aspnetcore-browser-refresh.js - 200 16505 application/javascript; charset=utf-8 15.7908ms
+2025-04-06 15:21:59.206 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7214/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.5035ms
+2025-04-06 15:21:59.265 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7214/swagger/v1/swagger.json - null null
+2025-04-06 15:21:59.295 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/Chat/AllUsers" for actions - sportx_api.Controllers.UserControllers.ChatController.AllUsers (sportx_api),sportx_api.Controllers.AdminControllers.ChatController.AllUsers (sportx_api). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-04-06 15:21:59.305 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7214/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 40.7107ms
+2025-04-06 15:29:55.683 +05:30 [INF] User profile is available. Using 'C:\Users\Vishal Kochiyaniya\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-06 15:29:56.008 +05:30 [INF] Now listening on: https://localhost:7214
+2025-04-06 15:29:56.009 +05:30 [INF] Now listening on: http://localhost:5104
+2025-04-06 15:29:56.090 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-06 15:29:56.092 +05:30 [INF] Hosting environment: Development
+2025-04-06 15:29:56.093 +05:30 [INF] Content root path: C:\rku-projects\sportx\sportx_api
+2025-04-06 15:29:56.407 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7214/swagger/index.html - null null
+2025-04-06 15:29:56.641 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7214/swagger/index.html - 200 null text/html;charset=utf-8 240.1515ms
+2025-04-06 15:29:56.645 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7214/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 15:29:56.664 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7214/_vs/browserLink - null null
+2025-04-06 15:29:56.713 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7214/_framework/aspnetcore-browser-refresh.js - 200 16505 application/javascript; charset=utf-8 67.7889ms
+2025-04-06 15:29:56.777 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7214/_vs/browserLink - 200 null text/javascript; charset=UTF-8 113.5316ms
+2025-04-06 15:29:56.816 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7214/swagger/v1/swagger.json - null null
+2025-04-06 15:29:56.853 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7214/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 37.3358ms
+2025-04-06 15:53:13.361 +05:30 [INF] Executed DbCommand (172ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [NetProjectDB];
+2025-04-06 15:53:13.475 +05:30 [INF] Executed DbCommand (65ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [NetProjectDB] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2025-04-06 15:53:13.498 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-04-06 15:53:13.565 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2025-04-06 15:53:13.570 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-04-06 15:53:13.587 +05:30 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-04-06 15:53:13.598 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-04-06 15:53:13.612 +05:30 [INF] Applying migration '20250406102259_InitialCreate'.
+2025-04-06 15:53:13.702 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Admin] (
+    [admin_id] int NOT NULL IDENTITY,
+    [name] nvarchar(255) NOT NULL,
+    [email] varchar(255) NOT NULL,
+    [img] nvarchar(max) NULL,
+    [password] varchar(255) NOT NULL,
+    [passwordHash] varbinary(max) NULL,
+    [passwordSalt] varbinary(max) NULL,
+    CONSTRAINT [PK__Admin__43AA41419B16C388] PRIMARY KEY ([admin_id])
+);
+2025-04-06 15:53:13.707 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Category] (
+    [category_id] int NOT NULL IDENTITY,
+    [name] nvarchar(255) NULL,
+    [image] nvarchar(max) NULL,
+    [description] nvarchar(max) NULL,
+    CONSTRAINT [PK__Category__D54EE9B4497BD4CE] PRIMARY KEY ([category_id])
+);
+2025-04-06 15:53:13.711 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [ChatMessages] (
+    [Id] int NOT NULL IDENTITY,
+    [Sender] nvarchar(100) NULL,
+    [Recipient] nvarchar(100) NULL,
+    [MessageContent] nvarchar(max) NULL,
+    [SentAt] datetime NULL,
+    CONSTRAINT [PK__ChatMess__3214EC0720D78A65] PRIMARY KEY ([Id])
+);
+2025-04-06 15:53:13.719 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Contact] (
+    [contact_id] int NOT NULL IDENTITY,
+    [name] nvarchar(255) NOT NULL,
+    [email] varchar(255) NOT NULL,
+    [subject] nvarchar(255) NULL,
+    [message] nvarchar(max) NULL,
+    [sent_date] date NULL,
+    [admin_response] nvarchar(max) NULL,
+    [response_date] date NULL,
+    [status] nvarchar(255) NULL DEFAULT N'PENDING',
+    CONSTRAINT [PK__Contact__024E7A86D33798E9] PRIMARY KEY ([contact_id])
+);
+2025-04-06 15:53:13.725 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Messages] (
+    [Id] int NOT NULL IDENTITY,
+    [Sender] nvarchar(max) NULL,
+    [Recipient] nvarchar(max) NULL,
+    [MessageContent] nvarchar(max) NULL,
+    [Timestamp] datetime NULL,
+    CONSTRAINT [PK__Messages__3214EC07F52BD4E0] PRIMARY KEY ([Id])
+);
+2025-04-06 15:53:13.730 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Users] (
+    [user_id] int NOT NULL IDENTITY,
+    [name] nvarchar(255) NOT NULL,
+    [email] varchar(255) NOT NULL,
+    [image] nvarchar(max) NULL,
+    [password] nvarchar(255) NOT NULL,
+    [passwordHash] varbinary(max) NULL,
+    [passwordSalt] varbinary(max) NULL,
+    [address] nvarchar(255) NULL,
+    [points] int NULL,
+    [phone_number] varchar(20) NULL,
+    CONSTRAINT [PK__Users__B9BE370F87BE9830] PRIMARY KEY ([user_id])
+);
+2025-04-06 15:53:13.735 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Vouchers] (
+    [Id] int NOT NULL IDENTITY,
+    [Code] nvarchar(100) NOT NULL,
+    [DiscountAmount] decimal(10,2) NOT NULL,
+    [ExpiryDate] datetime NOT NULL,
+    [IsUsed] bit NOT NULL,
+    [CreatedAt] datetime NOT NULL,
+    CONSTRAINT [PK__Vouchers__3214EC0711E7C749] PRIMARY KEY ([Id])
+);
+2025-04-06 15:53:13.742 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Products] (
+    [product_id] int NOT NULL IDENTITY,
+    [name] nvarchar(255) NULL,
+    [description] nvarchar(max) NULL,
+    [image] nvarchar(max) NULL,
+    [price] decimal(10,2) NULL,
+    [category_id] int NULL,
+    [brand] nvarchar(100) NULL,
+    [price_with_discount] decimal(10,2) NULL,
+    CONSTRAINT [PK__Products__47027DF511143966] PRIMARY KEY ([product_id]),
+    CONSTRAINT [FK__Products__catego__398D8EEE] FOREIGN KEY ([category_id]) REFERENCES [Category] ([category_id])
+);
+2025-04-06 15:53:13.746 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Cart] (
+    [cart_id] int NOT NULL IDENTITY,
+    [user_id] int NULL,
+    CONSTRAINT [PK__Cart__2EF52A271784853F] PRIMARY KEY ([cart_id]),
+    CONSTRAINT [FK__Cart__user_id__5165187F] FOREIGN KEY ([user_id]) REFERENCES [Users] ([user_id])
+);
+2025-04-06 15:53:13.752 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Chat] (
+    [ChatId] int NOT NULL IDENTITY,
+    [UserId] int NULL,
+    CONSTRAINT [PK__Chat__A9FBE7C61CED79B5] PRIMARY KEY ([ChatId]),
+    CONSTRAINT [FK__Chat__UserId__04E4BC85] FOREIGN KEY ([UserId]) REFERENCES [Users] ([user_id])
+);
+2025-04-06 15:53:13.758 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Copons] (
+    [copon_id] int NOT NULL IDENTITY,
+    [name] nvarchar(255) NULL,
+    [DiscountAmount] decimal(10,2) NULL,
+    [ExpiryDate] datetime NULL,
+    [CreatedAt] datetime NULL DEFAULT ((getdate())),
+    [IsUsed] bit NULL DEFAULT CAST(0 AS bit),
+    [user_id] int NULL,
+    CONSTRAINT [PK__Copons__8A47306FE8855B11] PRIMARY KEY ([copon_id]),
+    CONSTRAINT [FK__Copons__user_id__44FF419A] FOREIGN KEY ([user_id]) REFERENCES [Users] ([user_id])
+);
+2025-04-06 15:53:13.764 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Payments] (
+    [payment_id] int NOT NULL IDENTITY,
+    [user_id] int NOT NULL,
+    [amount] decimal(10,2) NOT NULL,
+    [payment_method] nvarchar(50) NULL,
+    [transaction_id] nvarchar(100) NULL,
+    [payment_status] nvarchar(50) NULL,
+    [payment_date] datetime NULL DEFAULT ((getdate())),
+    CONSTRAINT [PK__Payments__ED1FC9EA12D776EF] PRIMARY KEY ([payment_id]),
+    CONSTRAINT [FK__Payments__user_i__02084FDA] FOREIGN KEY ([user_id]) REFERENCES [Users] ([user_id])
+);
+2025-04-06 15:53:13.771 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Comment] (
+    [comment_id] int NOT NULL IDENTITY,
+    [user_id] int NULL,
+    [product_id] int NULL,
+    [comment] nvarchar(max) NULL,
+    [status] nvarchar(255) NULL DEFAULT N'PENDING',
+    [date] date NULL,
+    [rating] int NULL,
+    CONSTRAINT [PK__Comment__E79576877E66F93F] PRIMARY KEY ([comment_id]),
+    CONSTRAINT [FK__Comment__product__5DCAEF64] FOREIGN KEY ([product_id]) REFERENCES [Products] ([product_id]),
+    CONSTRAINT [FK__Comment__user_id__5CD6CB2B] FOREIGN KEY ([user_id]) REFERENCES [Users] ([user_id])
+);
+2025-04-06 15:53:13.777 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Cart_Item] (
+    [cart_item_id] int NOT NULL IDENTITY,
+    [cart_id] int NULL,
+    [product_id] int NULL,
+    [quantity] int NULL,
+    CONSTRAINT [PK__Cart_Ite__5D9A6C6EE3792976] PRIMARY KEY ([cart_item_id]),
+    CONSTRAINT [FK__Cart_Item__cart___5535A963] FOREIGN KEY ([cart_id]) REFERENCES [Cart] ([cart_id]),
+    CONSTRAINT [FK__Cart_Item__produ__5441852A] FOREIGN KEY ([product_id]) REFERENCES [Products] ([product_id])
+);
+2025-04-06 15:53:13.783 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [ChatMessage] (
+    [ChatMessagesId] int NOT NULL IDENTITY,
+    [ChatId] int NULL,
+    [Cmessages] nvarchar(max) NULL,
+    [Flag] int NULL,
+    CONSTRAINT [PK__ChatMess__9F4C3FC020C2F044] PRIMARY KEY ([ChatMessagesId]),
+    CONSTRAINT [FK__ChatMessa__ChatI__07C12930] FOREIGN KEY ([ChatId]) REFERENCES [Chat] ([ChatId])
+);
+2025-04-06 15:53:13.789 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Orders] (
+    [order_id] int NOT NULL IDENTITY,
+    [user_id] int NULL,
+    [amount] decimal(10,2) NULL,
+    [copon_id] int NULL,
+    [status] int NULL,
+    [transaction_id] nvarchar(max) NULL,
+    CONSTRAINT [PK__Orders__4659622920AE1EDD] PRIMARY KEY ([order_id]),
+    CONSTRAINT [FK__Orders__copon_id__48CFD27E] FOREIGN KEY ([copon_id]) REFERENCES [Copons] ([copon_id]),
+    CONSTRAINT [FK__Orders__user_id__47DBAE45] FOREIGN KEY ([user_id]) REFERENCES [Users] ([user_id])
+);
+2025-04-06 15:53:13.795 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Order_Item] (
+    [order_item_id] int NOT NULL IDENTITY,
+    [order_id] int NULL,
+    [product_id] int NULL,
+    [quantity] int NULL,
+    CONSTRAINT [PK__Order_It__3764B6BC3E19FB38] PRIMARY KEY ([order_item_id]),
+    CONSTRAINT [FK__Order_Ite__order__5812160E] FOREIGN KEY ([order_id]) REFERENCES [Orders] ([order_id]),
+    CONSTRAINT [FK__Order_Ite__produ__59063A47] FOREIGN KEY ([product_id]) REFERENCES [Products] ([product_id])
+);
+2025-04-06 15:53:13.800 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [UQ__Cart__B9BE370E785D7A90] ON [Cart] ([user_id]) WHERE [user_id] IS NOT NULL;
+2025-04-06 15:53:13.805 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Cart_Item_cart_id] ON [Cart_Item] ([cart_id]);
+2025-04-06 15:53:13.809 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Cart_Item_product_id] ON [Cart_Item] ([product_id]);
+2025-04-06 15:53:13.814 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Chat_UserId] ON [Chat] ([UserId]);
+2025-04-06 15:53:13.819 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_ChatMessage_ChatId] ON [ChatMessage] ([ChatId]);
+2025-04-06 15:53:13.823 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Comment_product_id] ON [Comment] ([product_id]);
+2025-04-06 15:53:13.828 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Comment_user_id] ON [Comment] ([user_id]);
+2025-04-06 15:53:13.832 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Copons_user_id] ON [Copons] ([user_id]);
+2025-04-06 15:53:13.837 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Order_Item_order_id] ON [Order_Item] ([order_id]);
+2025-04-06 15:53:13.841 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Order_Item_product_id] ON [Order_Item] ([product_id]);
+2025-04-06 15:53:13.845 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Orders_copon_id] ON [Orders] ([copon_id]);
+2025-04-06 15:53:13.849 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Orders_user_id] ON [Orders] ([user_id]);
+2025-04-06 15:53:13.854 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Payments_user_id] ON [Payments] ([user_id]);
+2025-04-06 15:53:13.858 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Products_category_id] ON [Products] ([category_id]);
+2025-04-06 15:53:13.864 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250406102259_InitialCreate', N'8.0.8');
+2025-04-06 15:53:38.748 +05:30 [INF] User profile is available. Using 'C:\Users\Vishal Kochiyaniya\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-06 15:53:39.102 +05:30 [INF] Now listening on: https://localhost:7214
+2025-04-06 15:53:39.108 +05:30 [INF] Now listening on: http://localhost:5104
+2025-04-06 15:53:39.169 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-06 15:53:39.171 +05:30 [INF] Hosting environment: Development
+2025-04-06 15:53:39.172 +05:30 [INF] Content root path: C:\rku-projects\sportx\sportx_api
+2025-04-06 15:53:39.899 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7214/swagger/index.html - null null
+2025-04-06 15:53:40.131 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7214/swagger/index.html - 200 null text/html;charset=utf-8 238.2709ms
+2025-04-06 15:53:40.143 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7214/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 15:53:40.159 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7214/_framework/aspnetcore-browser-refresh.js - 200 16505 application/javascript; charset=utf-8 15.6959ms
+2025-04-06 15:53:40.165 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7214/_vs/browserLink - null null
+2025-04-06 15:53:40.234 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7214/_vs/browserLink - 200 null text/javascript; charset=UTF-8 69.0323ms
+2025-04-06 15:53:40.300 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7214/swagger/v1/swagger.json - null null
+2025-04-06 15:53:40.344 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7214/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 45.0865ms
+2025-04-06 15:54:25.806 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7214/api/Users/register - multipart/form-data; boundary=----WebKitFormBoundaryYDKor2UOlVmrBYtM 460
+2025-04-06 15:54:25.896 +05:30 [INF] CORS policy execution successful.
+2025-04-06 15:54:26.049 +05:30 [INF] Executing endpoint 'sportx_api.Controllers.UserControllers.UsersController.Register (sportx_api)'
+2025-04-06 15:54:26.090 +05:30 [INF] Route matched with {action = "Register", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(sportx_api.DTOs.UserDTOs.UserHashDTO) on controller sportx_api.Controllers.UserControllers.UsersController (sportx_api).
+2025-04-06 15:54:27.990 +05:30 [INF] Executed DbCommand (57ms) [Parameters=[@p0='?' (Size = 255), @p1='?' (Size = 255) (DbType = AnsiString), @p2='?' (Size = 4000), @p3='?' (Size = 255), @p4='?' (Size = 255), @p5='?' (Size = 8000) (DbType = Binary), @p6='?' (Size = 8000) (DbType = Binary), @p7='?' (Size = 20) (DbType = AnsiString), @p8='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([address], [email], [image], [name], [password], [passwordHash], [passwordSalt], [phone_number], [points])
+OUTPUT INSERTED.[user_id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2025-04-06 15:54:28.079 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Cart] ([user_id])
+OUTPUT INSERTED.[cart_id]
+VALUES (@p0);
+2025-04-06 15:54:28.095 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-04-06 15:54:28.105 +05:30 [INF] Executed action sportx_api.Controllers.UserControllers.UsersController.Register (sportx_api) in 2005.8716ms
+2025-04-06 15:54:28.108 +05:30 [INF] Executed endpoint 'sportx_api.Controllers.UserControllers.UsersController.Register (sportx_api)'
+2025-04-06 15:54:28.120 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7214/api/Users/register - 200 null text/plain; charset=utf-8 2315.1016ms

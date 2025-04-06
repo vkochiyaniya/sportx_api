@@ -1,0 +1,91 @@
+﻿using sportx_api.DTOs.AdminDTOs;
+using sportx_api.Models;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using System;
+using sportx_api.DTOs.UserDTOs;
+
+namespace sportx_api.Controllers.AdminControllers
+{
+    [Route("api/admin/[controller]")]
+    [ApiController]
+    public class ChatController : ControllerBase
+    {
+
+        private readonly MyDbContext _db;
+
+        public ChatController(MyDbContext dbContext)
+        {
+            _db = dbContext;
+        }
+
+        [HttpPost("Adminlogin")]
+        public IActionResult Adminlogin([FromForm] string Email, [FromForm] string password)
+        {
+            var AdminLogin = _db.Admins.FirstOrDefault(x => x.Email == Email && x.Password == password);
+            if (AdminLogin == null)
+            {
+                return NotFound();
+            }
+            return Ok(AdminLogin);
+        }
+
+        [HttpGet("AllUsers")]
+        public IActionResult AllUsers()
+        {
+            var users = _db.Chats.ToList();
+
+            return Ok(users);
+        }
+
+        [HttpGet("showMessage/{userId}")]
+        public IActionResult ShowMessage(int userId)
+        {
+            var userChat = _db.Chats.FirstOrDefault(c => c.UserId == userId);
+
+            if (userChat == null)
+            {
+                return NotFound("No chat found for this user.");
+            }
+
+            // استرداد الرسائل الخاصة بالمحادثة
+            var messages = _db.ChatMessages.Where(m => m.ChatId == userChat.ChatId).ToList();
+
+            return Ok(messages);
+        }
+
+        [HttpPost("replayMessage/{userId}")]
+        public IActionResult ReplayMessage([FromForm] ChatResponseDTO chat, int userId)
+        {
+            // جلب المحادثة الخاصة بالمستخدم
+            var userChat = _db.Chats.FirstOrDefault(c => c.UserId == userId);
+
+            // إذا لم تكن هناك محادثة، قم بإنشاء محادثة جديدة
+            if (userChat == null)
+            {
+                userChat = new Chat
+                {
+                    UserId = userId,
+                    // أي خصائص أخرى تحتاجها عند إنشاء المحادثة
+                };
+
+                _db.Chats.Add(userChat);
+                _db.SaveChanges(); // حفظ المحادثة الجديدة للحصول على ChatId
+            }
+
+            // الآن أضف الرسالة الجديدة
+            var newMessage = new ChatMessage
+            {
+                ChatId = userChat.ChatId, // الحصول على ChatId الخاص بالمحادثة
+                Cmessages = chat.Cmessages,
+                Flag = chat.Flag,
+            };
+
+            _db.ChatMessages.Add(newMessage);
+            _db.SaveChanges();
+
+            return Ok(newMessage);
+        }
+    }
+}

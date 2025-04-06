@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "Ev9pmuo+2moUT3yHAGCBECK3zQSFZfdp79GgOCE0k3M=",
+  "Source": "sportx_api",
+  "BasePath": "_content/sportx_api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
