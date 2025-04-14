@@ -3,16 +3,48 @@
   "WorkspaceRootPath": "C:\\rku-projects\\sportx\\sportx_api\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CA159B28-808D-4511-932A-0C73FB3E7CB5}|sportx_api.csproj|c:\\rku-projects\\sportx\\sportx_api\\controllers\\admincontrollers\\admincontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA159B28-808D-4511-932A-0C73FB3E7CB5}|sportx_api.csproj|solutionrelative:controllers\\admincontrollers\\admincontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA159B28-808D-4511-932A-0C73FB3E7CB5}|sportx_api.csproj|c:\\rku-projects\\sportx\\sportx_api\\dtos\\admindtos\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA159B28-808D-4511-932A-0C73FB3E7CB5}|sportx_api.csproj|solutionrelative:dtos\\admindtos\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA159B28-808D-4511-932A-0C73FB3E7CB5}|sportx_api.csproj|c:\\rku-projects\\sportx\\sportx_api\\dtos\\admindtos\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA159B28-808D-4511-932A-0C73FB3E7CB5}|sportx_api.csproj|solutionrelative:dtos\\admindtos\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA159B28-808D-4511-932A-0C73FB3E7CB5}|sportx_api.csproj|c:\\rku-projects\\sportx\\sportx_api\\dtos\\userdtos\\passwordhashdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA159B28-808D-4511-932A-0C73FB3E7CB5}|sportx_api.csproj|solutionrelative:dtos\\userdtos\\passwordhashdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA159B28-808D-4511-932A-0C73FB3E7CB5}|sportx_api.csproj|c:\\rku-projects\\sportx\\sportx_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA159B28-808D-4511-932A-0C73FB3E7CB5}|sportx_api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CA159B28-808D-4511-932A-0C73FB3E7CB5}|sportx_api.csproj|c:\\rku-projects\\sportx\\sportx_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{CA159B28-808D-4511-932A-0C73FB3E7CB5}|sportx_api.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA159B28-808D-4511-932A-0C73FB3E7CB5}|sportx_api.csproj|c:\\rku-projects\\sportx\\sportx_api\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA159B28-808D-4511-932A-0C73FB3E7CB5}|sportx_api.csproj|solutionrelative:models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CA159B28-808D-4511-932A-0C73FB3E7CB5}|sportx_api.csproj|c:\\rku-projects\\sportx\\sportx_api\\controllers\\usercontrollers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA159B28-808D-4511-932A-0C73FB3E7CB5}|sportx_api.csproj|solutionrelative:controllers\\usercontrollers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA159B28-808D-4511-932A-0C73FB3E7CB5}|sportx_api.csproj|c:\\rku-projects\\sportx\\sportx_api\\controllers\\usercontrollers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA159B28-808D-4511-932A-0C73FB3E7CB5}|sportx_api.csproj|solutionrelative:controllers\\usercontrollers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA159B28-808D-4511-932A-0C73FB3E7CB5}|sportx_api.csproj|c:\\rku-projects\\sportx\\sportx_api\\controllers\\usercontrollers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA159B28-808D-4511-932A-0C73FB3E7CB5}|sportx_api.csproj|solutionrelative:controllers\\usercontrollers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA159B28-808D-4511-932A-0C73FB3E7CB5}|sportx_api.csproj|c:\\rku-projects\\sportx\\sportx_api\\controllers\\usercontrollers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA159B28-808D-4511-932A-0C73FB3E7CB5}|sportx_api.csproj|solutionrelative:controllers\\usercontrollers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA159B28-808D-4511-932A-0C73FB3E7CB5}|sportx_api.csproj|c:\\rku-projects\\sportx\\sportx_api\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA159B28-808D-4511-932A-0C73FB3E7CB5}|sportx_api.csproj|solutionrelative:models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CA159B28-808D-4511-932A-0C73FB3E7CB5}|sportx_api.csproj|c:\\rku-projects\\sportx\\sportx_api\\controllers\\usercontrollers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,20 +71,8 @@
       "RelativeMoniker": "D:0:0:{CA159B28-808D-4511-932A-0C73FB3E7CB5}|sportx_api.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA159B28-808D-4511-932A-0C73FB3E7CB5}|sportx_api.csproj|c:\\rku-projects\\sportx\\sportx_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA159B28-808D-4511-932A-0C73FB3E7CB5}|sportx_api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CA159B28-808D-4511-932A-0C73FB3E7CB5}|sportx_api.csproj|c:\\rku-projects\\sportx\\sportx_api\\controllers\\admincontrollers\\vouchercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA159B28-808D-4511-932A-0C73FB3E7CB5}|sportx_api.csproj|solutionrelative:controllers\\admincontrollers\\vouchercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA159B28-808D-4511-932A-0C73FB3E7CB5}|sportx_api.csproj|c:\\rku-projects\\sportx\\sportx_api\\controllers\\admincontrollers\\admincontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA159B28-808D-4511-932A-0C73FB3E7CB5}|sportx_api.csproj|solutionrelative:controllers\\admincontrollers\\admincontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA159B28-808D-4511-932A-0C73FB3E7CB5}|sportx_api.csproj|c:\\rku-projects\\sportx\\sportx_api\\controllers\\usercontrollers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA159B28-808D-4511-932A-0C73FB3E7CB5}|sportx_api.csproj|solutionrelative:controllers\\usercontrollers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CA159B28-808D-4511-932A-0C73FB3E7CB5}|sportx_api.csproj|c:\\rku-projects\\sportx\\sportx_api\\dtos\\admindtos\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -75,16 +95,8 @@
       "RelativeMoniker": "D:0:0:{CA159B28-808D-4511-932A-0C73FB3E7CB5}|sportx_api.csproj|solutionrelative:dtos\\admindtos\\productsresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA159B28-808D-4511-932A-0C73FB3E7CB5}|sportx_api.csproj|c:\\rku-projects\\sportx\\sportx_api\\dtos\\admindtos\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA159B28-808D-4511-932A-0C73FB3E7CB5}|sportx_api.csproj|solutionrelative:dtos\\admindtos\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CA159B28-808D-4511-932A-0C73FB3E7CB5}|sportx_api.csproj|c:\\rku-projects\\sportx\\sportx_api\\dtos\\admindtos\\categoryadmindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA159B28-808D-4511-932A-0C73FB3E7CB5}|sportx_api.csproj|solutionrelative:dtos\\admindtos\\categoryadmindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA159B28-808D-4511-932A-0C73FB3E7CB5}|sportx_api.csproj|c:\\rku-projects\\sportx\\sportx_api\\dtos\\admindtos\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA159B28-808D-4511-932A-0C73FB3E7CB5}|sportx_api.csproj|solutionrelative:dtos\\admindtos\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CA159B28-808D-4511-932A-0C73FB3E7CB5}|sportx_api.csproj|c:\\rku-projects\\sportx\\sportx_api\\dtos\\userdtos\\chatresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -97,10 +109,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CA159B28-808D-4511-932A-0C73FB3E7CB5}|sportx_api.csproj|c:\\rku-projects\\sportx\\sportx_api\\models\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA159B28-808D-4511-932A-0C73FB3E7CB5}|sportx_api.csproj|solutionrelative:models\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA159B28-808D-4511-932A-0C73FB3E7CB5}|sportx_api.csproj|c:\\rku-projects\\sportx\\sportx_api\\controllers\\usercontrollers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA159B28-808D-4511-932A-0C73FB3E7CB5}|sportx_api.csproj|solutionrelative:controllers\\usercontrollers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CA159B28-808D-4511-932A-0C73FB3E7CB5}|sportx_api.csproj|c:\\rku-projects\\sportx\\sportx_api\\dtos\\admindtos\\admindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -171,10 +179,6 @@
       "RelativeMoniker": "D:0:0:{CA159B28-808D-4511-932A-0C73FB3E7CB5}|sportx_api.csproj|solutionrelative:controllers\\usercontrollers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA159B28-808D-4511-932A-0C73FB3E7CB5}|sportx_api.csproj|c:\\rku-projects\\sportx\\sportx_api\\controllers\\usercontrollers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA159B28-808D-4511-932A-0C73FB3E7CB5}|sportx_api.csproj|solutionrelative:controllers\\usercontrollers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CA159B28-808D-4511-932A-0C73FB3E7CB5}|sportx_api.csproj|c:\\rku-projects\\sportx\\sportx_api\\dtos\\userdtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA159B28-808D-4511-932A-0C73FB3E7CB5}|sportx_api.csproj|solutionrelative:dtos\\userdtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -206,128 +210,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MyDbContext.cs",
-              "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\Models\\MyDbContext.cs",
-              "RelativeDocumentMoniker": "Models\\MyDbContext.cs",
-              "ToolTip": "C:\\rku-projects\\sportx\\sportx_api\\Models\\MyDbContext.cs",
-              "RelativeToolTip": "Models\\MyDbContext.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAADQAAAArAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "PasswordHashDTO.cs",
+              "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\DTOs\\UserDTOs\\PasswordHashDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\UserDTOs\\PasswordHashDTO.cs",
+              "ToolTip": "C:\\rku-projects\\sportx\\sportx_api\\DTOs\\UserDTOs\\PasswordHashDTO.cs",
+              "RelativeToolTip": "DTOs\\UserDTOs\\PasswordHashDTO.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA9wA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T08:35:59.791Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\rku-projects\\sportx\\sportx_api\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAQwA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-06T07:59:36.743Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "sportx_api.csproj",
-              "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\sportx_api.csproj",
-              "RelativeDocumentMoniker": "sportx_api.csproj",
-              "ToolTip": "C:\\rku-projects\\sportx\\sportx_api\\sportx_api.csproj",
-              "RelativeToolTip": "sportx_api.csproj",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAIwAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-06T07:37:02.52Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ChatController.cs",
-              "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\Controllers\\AdminControllers\\ChatController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AdminControllers\\ChatController.cs",
-              "ToolTip": "C:\\rku-projects\\sportx\\sportx_api\\Controllers\\AdminControllers\\ChatController.cs",
-              "RelativeToolTip": "Controllers\\AdminControllers\\ChatController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T07:49:04.262Z",
+              "WhenOpened": "2025-04-11T09:54:39.276Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "ChatController.cs",
-              "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\Controllers\\UserControllers\\ChatController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserControllers\\ChatController.cs",
-              "ToolTip": "C:\\rku-projects\\sportx\\sportx_api\\Controllers\\UserControllers\\ChatController.cs",
-              "RelativeToolTip": "Controllers\\UserControllers\\ChatController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T07:53:54.566Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "C:\\rku-projects\\sportx\\sportx_api\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T08:47:02.15Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PaymentController.cs",
-              "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\Controllers\\UserControllers\\PaymentController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserControllers\\PaymentController.cs",
-              "ToolTip": "C:\\rku-projects\\sportx\\sportx_api\\Controllers\\UserControllers\\PaymentController.cs",
-              "RelativeToolTip": "Controllers\\UserControllers\\PaymentController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T07:54:51.621Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\Controllers\\UserControllers\\UsersController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserControllers\\UsersController.cs",
               "ToolTip": "C:\\rku-projects\\sportx\\sportx_api\\Controllers\\UserControllers\\UsersController.cs",
               "RelativeToolTip": "Controllers\\UserControllers\\UsersController.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAiwCMAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAO0AAAAAAAAAAAAuwPcAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T07:55:15.84Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T07:55:15.84Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\rku-projects\\sportx\\sportx_api\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAALAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T08:11:23.037Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T08:11:23.037Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "ProductsRequestDTO.cs",
               "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\DTOs\\AdminDTOs\\ProductsRequestDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\AdminDTOs\\ProductsRequestDTO.cs",
@@ -335,129 +259,48 @@
               "RelativeToolTip": "DTOs\\AdminDTOs\\ProductsRequestDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T09:10:55.414Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T09:10:55.414Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "VoucherController.cs",
-              "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\Controllers\\AdminControllers\\VoucherController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AdminControllers\\VoucherController.cs",
-              "ToolTip": "C:\\rku-projects\\sportx\\sportx_api\\Controllers\\AdminControllers\\VoucherController.cs",
-              "RelativeToolTip": "Controllers\\AdminControllers\\VoucherController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\Controllers\\UserControllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserControllers\\ProductsController.cs",
+              "ToolTip": "C:\\rku-projects\\sportx\\sportx_api\\Controllers\\UserControllers\\ProductsController.cs",
+              "RelativeToolTip": "Controllers\\UserControllers\\ProductsController.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAwwJkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T07:50:07.097Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T07:55:04.737Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 0,
               "Title": "AdminControllers.cs",
               "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\Controllers\\AdminControllers\\AdminControllers.cs",
               "RelativeDocumentMoniker": "Controllers\\AdminControllers\\AdminControllers.cs",
               "ToolTip": "C:\\rku-projects\\sportx\\sportx_api\\Controllers\\AdminControllers\\AdminControllers.cs",
               "RelativeToolTip": "Controllers\\AdminControllers\\AdminControllers.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAANgBAAAAAAAAAADwv+ABAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-06T07:47:27.968Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\Controllers\\UserControllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserControllers\\CategoryController.cs",
-              "ToolTip": "C:\\rku-projects\\sportx\\sportx_api\\Controllers\\UserControllers\\CategoryController.cs",
-              "RelativeToolTip": "Controllers\\UserControllers\\CategoryController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\Controllers\\UserControllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserControllers\\CartController.cs",
+              "ToolTip": "C:\\rku-projects\\sportx\\sportx_api\\Controllers\\UserControllers\\CartController.cs",
+              "RelativeToolTip": "Controllers\\UserControllers\\CartController.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAAwI4AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T07:53:50.117Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T07:51:31.399Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "PasswordHasher.cs",
-              "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\DTOs\\AdminDTOs\\PasswordHasher.cs",
-              "RelativeDocumentMoniker": "DTOs\\AdminDTOs\\PasswordHasher.cs",
-              "ToolTip": "C:\\rku-projects\\sportx\\sportx_api\\DTOs\\AdminDTOs\\PasswordHasher.cs",
-              "RelativeToolTip": "DTOs\\AdminDTOs\\PasswordHasher.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T09:19:35.556Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UserHashDTO.cs",
-              "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\DTOs\\UserDTOs\\UserHashDTO.cs",
-              "RelativeDocumentMoniker": "DTOs\\UserDTOs\\UserHashDTO.cs",
-              "ToolTip": "C:\\rku-projects\\sportx\\sportx_api\\DTOs\\UserDTOs\\UserHashDTO.cs",
-              "RelativeToolTip": "DTOs\\UserDTOs\\UserHashDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T07:42:52.62Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "VoucherRequestDto.cs",
-              "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\DTOs\\AdminDTOs\\VoucherRequestDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\AdminDTOs\\VoucherRequestDto.cs",
-              "ToolTip": "C:\\rku-projects\\sportx\\sportx_api\\DTOs\\AdminDTOs\\VoucherRequestDto.cs",
-              "RelativeToolTip": "DTOs\\AdminDTOs\\VoucherRequestDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T09:19:40.995Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "UserRequestDTO.cs",
-              "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\DTOs\\AdminDTOs\\UserRequestDTO.cs",
-              "RelativeDocumentMoniker": "DTOs\\AdminDTOs\\UserRequestDTO.cs",
-              "ToolTip": "C:\\rku-projects\\sportx\\sportx_api\\DTOs\\AdminDTOs\\UserRequestDTO.cs",
-              "RelativeToolTip": "DTOs\\AdminDTOs\\UserRequestDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T09:19:38.058Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ProductsResponseDTO.cs",
-              "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\DTOs\\AdminDTOs\\ProductsResponseDTO.cs",
-              "RelativeDocumentMoniker": "DTOs\\AdminDTOs\\ProductsResponseDTO.cs",
-              "ToolTip": "C:\\rku-projects\\sportx\\sportx_api\\DTOs\\AdminDTOs\\ProductsResponseDTO.cs",
-              "RelativeToolTip": "DTOs\\AdminDTOs\\ProductsResponseDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T09:19:36.639Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "CategoryAdminDTO.cs",
-              "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\DTOs\\AdminDTOs\\CategoryAdminDTO.cs",
-              "RelativeDocumentMoniker": "DTOs\\AdminDTOs\\CategoryAdminDTO.cs",
-              "ToolTip": "C:\\rku-projects\\sportx\\sportx_api\\DTOs\\AdminDTOs\\CategoryAdminDTO.cs",
-              "RelativeToolTip": "DTOs\\AdminDTOs\\CategoryAdminDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T09:19:31.946Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 2,
               "Title": "EmailService.cs",
               "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\DTOs\\AdminDTOs\\EmailService.cs",
               "RelativeDocumentMoniker": "DTOs\\AdminDTOs\\EmailService.cs",
@@ -470,20 +313,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ChatResponseDTO.cs",
-              "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\DTOs\\UserDTOs\\ChatResponseDTO.cs",
-              "RelativeDocumentMoniker": "DTOs\\UserDTOs\\ChatResponseDTO.cs",
-              "ToolTip": "C:\\rku-projects\\sportx\\sportx_api\\DTOs\\UserDTOs\\ChatResponseDTO.cs",
-              "RelativeToolTip": "DTOs\\UserDTOs\\ChatResponseDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T09:17:48.553Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 1,
               "Title": "IEmailService.cs",
               "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\DTOs\\AdminDTOs\\IEmailService.cs",
               "RelativeDocumentMoniker": "DTOs\\AdminDTOs\\IEmailService.cs",
@@ -496,7 +326,199 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\Controllers\\UserControllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserControllers\\PaymentController.cs",
+              "ToolTip": "C:\\rku-projects\\sportx\\sportx_api\\Controllers\\UserControllers\\PaymentController.cs",
+              "RelativeToolTip": "Controllers\\UserControllers\\PaymentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T07:54:51.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\rku-projects\\sportx\\sportx_api\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T08:47:02.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ChatController.cs",
+              "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\Controllers\\UserControllers\\ChatController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserControllers\\ChatController.cs",
+              "ToolTip": "C:\\rku-projects\\sportx\\sportx_api\\Controllers\\UserControllers\\ChatController.cs",
+              "RelativeToolTip": "Controllers\\UserControllers\\ChatController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T07:53:54.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\rku-projects\\sportx\\sportx_api\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-06T07:59:36.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\Controllers\\UserControllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserControllers\\CategoryController.cs",
+              "ToolTip": "C:\\rku-projects\\sportx\\sportx_api\\Controllers\\UserControllers\\CategoryController.cs",
+              "RelativeToolTip": "Controllers\\UserControllers\\CategoryController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAuwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T07:53:50.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ChatController.cs",
+              "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\Controllers\\AdminControllers\\ChatController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminControllers\\ChatController.cs",
+              "ToolTip": "C:\\rku-projects\\sportx\\sportx_api\\Controllers\\AdminControllers\\ChatController.cs",
+              "RelativeToolTip": "Controllers\\AdminControllers\\ChatController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T07:49:04.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "sportx_api.csproj",
+              "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\sportx_api.csproj",
+              "RelativeDocumentMoniker": "sportx_api.csproj",
+              "ToolTip": "C:\\rku-projects\\sportx\\sportx_api\\sportx_api.csproj",
+              "RelativeToolTip": "sportx_api.csproj",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAIwAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-06T07:37:02.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\Models\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\MyDbContext.cs",
+              "ToolTip": "C:\\rku-projects\\sportx\\sportx_api\\Models\\MyDbContext.cs",
+              "RelativeToolTip": "Models\\MyDbContext.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T08:35:59.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "VoucherController.cs",
+              "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\Controllers\\AdminControllers\\VoucherController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminControllers\\VoucherController.cs",
+              "ToolTip": "C:\\rku-projects\\sportx\\sportx_api\\Controllers\\AdminControllers\\VoucherController.cs",
+              "RelativeToolTip": "Controllers\\AdminControllers\\VoucherController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T07:50:07.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\DTOs\\AdminDTOs\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "DTOs\\AdminDTOs\\PasswordHasher.cs",
+              "ToolTip": "C:\\rku-projects\\sportx\\sportx_api\\DTOs\\AdminDTOs\\PasswordHasher.cs",
+              "RelativeToolTip": "DTOs\\AdminDTOs\\PasswordHasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T09:19:35.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserHashDTO.cs",
+              "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\DTOs\\UserDTOs\\UserHashDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\UserDTOs\\UserHashDTO.cs",
+              "ToolTip": "C:\\rku-projects\\sportx\\sportx_api\\DTOs\\UserDTOs\\UserHashDTO.cs",
+              "RelativeToolTip": "DTOs\\UserDTOs\\UserHashDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T07:42:52.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "VoucherRequestDto.cs",
+              "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\DTOs\\AdminDTOs\\VoucherRequestDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\AdminDTOs\\VoucherRequestDto.cs",
+              "ToolTip": "C:\\rku-projects\\sportx\\sportx_api\\DTOs\\AdminDTOs\\VoucherRequestDto.cs",
+              "RelativeToolTip": "DTOs\\AdminDTOs\\VoucherRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T09:19:40.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserRequestDTO.cs",
+              "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\DTOs\\AdminDTOs\\UserRequestDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\AdminDTOs\\UserRequestDTO.cs",
+              "ToolTip": "C:\\rku-projects\\sportx\\sportx_api\\DTOs\\AdminDTOs\\UserRequestDTO.cs",
+              "RelativeToolTip": "DTOs\\AdminDTOs\\UserRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T09:19:38.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ProductsResponseDTO.cs",
+              "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\DTOs\\AdminDTOs\\ProductsResponseDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\AdminDTOs\\ProductsResponseDTO.cs",
+              "ToolTip": "C:\\rku-projects\\sportx\\sportx_api\\DTOs\\AdminDTOs\\ProductsResponseDTO.cs",
+              "RelativeToolTip": "DTOs\\AdminDTOs\\ProductsResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T09:19:36.639Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 23,
+              "Title": "CategoryAdminDTO.cs",
+              "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\DTOs\\AdminDTOs\\CategoryAdminDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\AdminDTOs\\CategoryAdminDTO.cs",
+              "ToolTip": "C:\\rku-projects\\sportx\\sportx_api\\DTOs\\AdminDTOs\\CategoryAdminDTO.cs",
+              "RelativeToolTip": "DTOs\\AdminDTOs\\CategoryAdminDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T09:19:31.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ChatResponseDTO.cs",
+              "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\DTOs\\UserDTOs\\ChatResponseDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\UserDTOs\\ChatResponseDTO.cs",
+              "ToolTip": "C:\\rku-projects\\sportx\\sportx_api\\DTOs\\UserDTOs\\ChatResponseDTO.cs",
+              "RelativeToolTip": "DTOs\\UserDTOs\\ChatResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T09:17:48.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "ChatMessage.cs",
               "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\Models\\ChatMessage.cs",
               "RelativeDocumentMoniker": "Models\\ChatMessage.cs",
@@ -504,25 +526,11 @@
               "RelativeToolTip": "Models\\ChatMessage.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T09:16:49.891Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T09:16:49.891Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "CartController.cs",
-              "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\Controllers\\UserControllers\\CartController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserControllers\\CartController.cs",
-              "ToolTip": "C:\\rku-projects\\sportx\\sportx_api\\Controllers\\UserControllers\\CartController.cs",
-              "RelativeToolTip": "Controllers\\UserControllers\\CartController.cs",
-              "ViewState": "AgIAAIsAAAAAAAAAAIBJwI4AAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T07:51:31.399Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "ChatMessage1.cs",
               "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\Models\\ChatMessage1.cs",
               "RelativeDocumentMoniker": "Models\\ChatMessage1.cs",
@@ -530,12 +538,11 @@
               "RelativeToolTip": "Models\\ChatMessage1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T08:48:28.982Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T08:48:28.982Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "BrandCountDto.cs",
               "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\DTOs\\UserDTOs\\BrandCountDto.cs",
               "RelativeDocumentMoniker": "DTOs\\UserDTOs\\BrandCountDto.cs",
@@ -543,12 +550,11 @@
               "RelativeToolTip": "DTOs\\UserDTOs\\BrandCountDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T09:06:20.138Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T09:06:20.138Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "AdminDTO.cs",
               "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\DTOs\\UserDTOs\\AdminDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\UserDTOs\\AdminDTO.cs",
@@ -556,12 +562,11 @@
               "RelativeToolTip": "DTOs\\UserDTOs\\AdminDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T09:06:13.86Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T09:06:13.86Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "Cart.cs",
               "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\Models\\Cart.cs",
               "RelativeDocumentMoniker": "Models\\Cart.cs",
@@ -569,12 +574,11 @@
               "RelativeToolTip": "Models\\Cart.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T07:36:06.395Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T07:36:06.395Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "AdminDTO.cs",
               "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\DTOs\\AdminDTOs\\AdminDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\AdminDTOs\\AdminDTO.cs",
@@ -582,12 +586,11 @@
               "RelativeToolTip": "DTOs\\AdminDTOs\\AdminDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T07:38:03.745Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T07:38:03.745Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "addCartItemRequestDTO.cs",
               "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\DTOs\\UserDTOs\\addCartItemRequestDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\UserDTOs\\addCartItemRequestDTO.cs",
@@ -595,12 +598,11 @@
               "RelativeToolTip": "DTOs\\UserDTOs\\addCartItemRequestDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T07:40:30.222Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T07:40:30.222Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "Message.cs",
               "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\Models\\Message.cs",
               "RelativeDocumentMoniker": "Models\\Message.cs",
@@ -608,12 +610,11 @@
               "RelativeToolTip": "Models\\Message.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T08:48:31.803Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T08:48:31.803Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "Contact.cs",
               "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\Models\\Contact.cs",
               "RelativeDocumentMoniker": "Models\\Contact.cs",
@@ -621,12 +622,11 @@
               "RelativeToolTip": "Models\\Contact.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T08:48:29.957Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T08:48:29.957Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "Chat.cs",
               "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\Models\\Chat.cs",
               "RelativeDocumentMoniker": "Models\\Chat.cs",
@@ -634,12 +634,11 @@
               "RelativeToolTip": "Models\\Chat.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T08:48:27.975Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T08:48:27.975Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\Models\\Category.cs",
               "RelativeDocumentMoniker": "Models\\Category.cs",
@@ -647,12 +646,11 @@
               "RelativeToolTip": "Models\\Category.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T08:48:27.001Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T08:48:27.001Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "CartItem.cs",
               "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\Models\\CartItem.cs",
               "RelativeDocumentMoniker": "Models\\CartItem.cs",
@@ -660,12 +658,11 @@
               "RelativeToolTip": "Models\\CartItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T08:48:26.044Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T08:48:26.044Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 37,
               "Title": "Admin.cs",
               "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\Models\\Admin.cs",
               "RelativeDocumentMoniker": "Models\\Admin.cs",
@@ -673,12 +670,11 @@
               "RelativeToolTip": "Models\\Admin.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T08:48:23.78Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T08:48:23.78Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 38,
               "Title": "Payment.cs",
               "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\Models\\Payment.cs",
               "RelativeDocumentMoniker": "Models\\Payment.cs",
@@ -686,12 +682,11 @@
               "RelativeToolTip": "Models\\Payment.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T08:47:08.901Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T08:47:08.901Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 39,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Models\\Product.cs",
@@ -699,12 +694,11 @@
               "RelativeToolTip": "Models\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T08:47:07.187Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T08:47:07.187Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 40,
               "Title": "Voucher.cs",
               "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\Models\\Voucher.cs",
               "RelativeDocumentMoniker": "Models\\Voucher.cs",
@@ -712,12 +706,11 @@
               "RelativeToolTip": "Models\\Voucher.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T08:46:59.899Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T08:46:59.899Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 41,
               "Title": "OrderController.cs",
               "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\Controllers\\UserControllers\\OrderController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserControllers\\OrderController.cs",
@@ -725,12 +718,11 @@
               "RelativeToolTip": "Controllers\\UserControllers\\OrderController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T07:54:41.557Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T07:54:41.557Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 43,
               "Title": "ContactController.cs",
               "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\Controllers\\UserControllers\\ContactController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserControllers\\ContactController.cs",
@@ -738,25 +730,11 @@
               "RelativeToolTip": "Controllers\\UserControllers\\ContactController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T07:54:31.968Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T07:54:31.968Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 42,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\Controllers\\UserControllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserControllers\\ProductsController.cs",
-              "ToolTip": "C:\\rku-projects\\sportx\\sportx_api\\Controllers\\UserControllers\\ProductsController.cs",
-              "RelativeToolTip": "Controllers\\UserControllers\\ProductsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T07:55:04.737Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
               "Title": "CommentsController.cs",
               "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\Controllers\\UserControllers\\CommentsController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserControllers\\CommentsController.cs",
@@ -764,12 +742,11 @@
               "RelativeToolTip": "Controllers\\UserControllers\\CommentsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T07:54:21.461Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T07:54:21.461Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "UserDTO.cs",
               "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\DTOs\\UserDTOs\\UserDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\UserDTOs\\UserDTO.cs",
@@ -777,12 +754,11 @@
               "RelativeToolTip": "DTOs\\UserDTOs\\UserDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T07:42:51.188Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T07:42:51.188Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "TokenGeneratorDTO.cs",
               "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\DTOs\\UserDTOs\\TokenGeneratorDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\UserDTOs\\TokenGeneratorDTO.cs",
@@ -790,12 +766,11 @@
               "RelativeToolTip": "DTOs\\UserDTOs\\TokenGeneratorDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T07:42:49.971Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T07:42:49.971Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "PayPalPaymentService.cs",
               "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\DTOs\\UserDTOs\\PayPalPaymentService.cs",
               "RelativeDocumentMoniker": "DTOs\\UserDTOs\\PayPalPaymentService.cs",
@@ -803,12 +778,11 @@
               "RelativeToolTip": "DTOs\\UserDTOs\\PayPalPaymentService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T07:42:47.084Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T07:42:47.084Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "EditUserInfoDTOs.cs",
               "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\DTOs\\UserDTOs\\EditUserInfoDTOs.cs",
               "RelativeDocumentMoniker": "DTOs\\UserDTOs\\EditUserInfoDTOs.cs",
@@ -816,12 +790,11 @@
               "RelativeToolTip": "DTOs\\UserDTOs\\EditUserInfoDTOs.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T07:42:44.464Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T07:42:44.464Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "CategoryAdminDTO.cs",
               "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\DTOs\\UserDTOs\\CategoryAdminDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\UserDTOs\\CategoryAdminDTO.cs",
@@ -829,12 +802,11 @@
               "RelativeToolTip": "DTOs\\UserDTOs\\CategoryAdminDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T07:42:15.828Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T07:42:15.828Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "LoginDTO.cs",
               "DocumentMoniker": "C:\\rku-projects\\sportx\\sportx_api\\DTOs\\UserDTOs\\LoginDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\UserDTOs\\LoginDTO.cs",
@@ -842,8 +814,7 @@
               "RelativeToolTip": "DTOs\\UserDTOs\\LoginDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T07:41:03.238Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T07:41:03.238Z"
             }
           ]
         }

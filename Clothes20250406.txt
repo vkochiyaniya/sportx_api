@@ -332,3 +332,404 @@ VALUES (@p0);
 2025-04-06 15:54:28.105 +05:30 [INF] Executed action sportx_api.Controllers.UserControllers.UsersController.Register (sportx_api) in 2005.8716ms
 2025-04-06 15:54:28.108 +05:30 [INF] Executed endpoint 'sportx_api.Controllers.UserControllers.UsersController.Register (sportx_api)'
 2025-04-06 15:54:28.120 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7214/api/Users/register - 200 null text/plain; charset=utf-8 2315.1016ms
+2025-04-06 16:22:49.478 +05:30 [INF] User profile is available. Using 'C:\Users\Vishal Kochiyaniya\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-06 16:22:49.766 +05:30 [INF] Now listening on: https://localhost:7214
+2025-04-06 16:22:49.768 +05:30 [INF] Now listening on: http://localhost:5104
+2025-04-06 16:22:49.822 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-06 16:22:49.824 +05:30 [INF] Hosting environment: Development
+2025-04-06 16:22:49.826 +05:30 [INF] Content root path: C:\rku-projects\sportx\sportx_api
+2025-04-06 16:22:50.798 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7214/swagger/index.html - null null
+2025-04-06 16:22:51.071 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7214/swagger/index.html - 200 null text/html;charset=utf-8 277.449ms
+2025-04-06 16:22:51.144 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7214/_vs/browserLink - null null
+2025-04-06 16:22:51.144 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7214/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 16:22:51.162 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7214/_framework/aspnetcore-browser-refresh.js - 200 16505 application/javascript; charset=utf-8 19.5734ms
+2025-04-06 16:22:51.213 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7214/_vs/browserLink - 200 null text/javascript; charset=UTF-8 70.1763ms
+2025-04-06 16:22:51.251 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7214/swagger/v1/swagger.json - null null
+2025-04-06 16:22:51.288 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7214/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 36.9484ms
+2025-04-06 16:23:16.866 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7214/api/AdminControllers/User - null null
+2025-04-06 16:23:16.965 +05:30 [INF] Executing endpoint 'sportx_api.Controllers.AdminControllers.AdminControllers.GetUsers (sportx_api)'
+2025-04-06 16:23:16.980 +05:30 [INF] Route matched with {action = "GetUsers", controller = "AdminControllers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetUsers() on controller sportx_api.Controllers.AdminControllers.AdminControllers (sportx_api).
+2025-04-06 16:23:18.339 +05:30 [INF] Executed DbCommand (29ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[user_id], [u].[address], [u].[email], [u].[image], [u].[name], [u].[password], [u].[passwordHash], [u].[passwordSalt], [u].[phone_number], [u].[points]
+FROM [Users] AS [u]
+2025-04-06 16:23:18.435 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[sportx_api.Models.User, sportx_api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-06 16:23:18.471 +05:30 [INF] Executed action sportx_api.Controllers.AdminControllers.AdminControllers.GetUsers (sportx_api) in 1483.9833ms
+2025-04-06 16:23:18.474 +05:30 [INF] Executed endpoint 'sportx_api.Controllers.AdminControllers.AdminControllers.GetUsers (sportx_api)'
+2025-04-06 16:23:18.482 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7214/api/AdminControllers/User - 200 null application/json; charset=utf-8 1616.5203ms
+2025-04-06 17:53:36.724 +05:30 [INF] User profile is available. Using 'C:\Users\Vishal Kochiyaniya\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-06 17:53:37.041 +05:30 [INF] Now listening on: https://localhost:7214
+2025-04-06 17:53:37.042 +05:30 [INF] Now listening on: http://localhost:5104
+2025-04-06 17:53:37.141 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-06 17:53:37.143 +05:30 [INF] Hosting environment: Development
+2025-04-06 17:53:37.145 +05:30 [INF] Content root path: C:\rku-projects\sportx\sportx_api
+2025-04-06 17:53:37.717 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7214/swagger/index.html - null null
+2025-04-06 17:53:37.955 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7214/swagger/index.html - 200 null text/html;charset=utf-8 242.2339ms
+2025-04-06 17:53:37.993 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7214/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 17:53:37.994 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7214/_vs/browserLink - null null
+2025-04-06 17:53:38.009 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7214/_framework/aspnetcore-browser-refresh.js - 200 16505 application/javascript; charset=utf-8 16.1689ms
+2025-04-06 17:53:38.064 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7214/_vs/browserLink - 200 null text/javascript; charset=UTF-8 70.3086ms
+2025-04-06 17:53:38.208 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7214/swagger/v1/swagger.json - null null
+2025-04-06 17:53:38.251 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7214/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 43.6318ms
+2025-04-06 18:04:15.597 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7214/api/Users/register - multipart/form-data; boundary=----WebKitFormBoundarySdVAgDFUhvwkAl50 493
+2025-04-06 18:04:15.706 +05:30 [INF] CORS policy execution successful.
+2025-04-06 18:04:15.858 +05:30 [INF] Executing endpoint 'sportx_api.Controllers.UserControllers.UsersController.Register (sportx_api)'
+2025-04-06 18:04:15.898 +05:30 [INF] Route matched with {action = "Register", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(sportx_api.DTOs.UserDTOs.UserHashDTO) on controller sportx_api.Controllers.UserControllers.UsersController (sportx_api).
+2025-04-06 18:04:18.030 +05:30 [INF] Executed DbCommand (64ms) [Parameters=[@p0='?' (Size = 255), @p1='?' (Size = 255) (DbType = AnsiString), @p2='?' (Size = 4000), @p3='?' (Size = 255), @p4='?' (Size = 255), @p5='?' (Size = 8000) (DbType = Binary), @p6='?' (Size = 8000) (DbType = Binary), @p7='?' (Size = 20) (DbType = AnsiString), @p8='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([address], [email], [image], [name], [password], [passwordHash], [passwordSalt], [phone_number], [points])
+OUTPUT INSERTED.[user_id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2025-04-06 18:04:18.108 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Cart] ([user_id])
+OUTPUT INSERTED.[cart_id]
+VALUES (@p0);
+2025-04-06 18:04:18.119 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-04-06 18:04:18.129 +05:30 [INF] Executed action sportx_api.Controllers.UserControllers.UsersController.Register (sportx_api) in 2223.7055ms
+2025-04-06 18:04:18.131 +05:30 [INF] Executed endpoint 'sportx_api.Controllers.UserControllers.UsersController.Register (sportx_api)'
+2025-04-06 18:04:18.143 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7214/api/Users/register - 200 null text/plain; charset=utf-8 2547.7167ms
+2025-04-06 18:31:41.795 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7214/api/AdminControllers/User - null null
+2025-04-06 18:31:41.814 +05:30 [INF] Executing endpoint 'sportx_api.Controllers.AdminControllers.AdminControllers.GetUsers (sportx_api)'
+2025-04-06 18:31:41.820 +05:30 [INF] Route matched with {action = "GetUsers", controller = "AdminControllers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetUsers() on controller sportx_api.Controllers.AdminControllers.AdminControllers (sportx_api).
+2025-04-06 18:31:42.308 +05:30 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[user_id], [u].[address], [u].[email], [u].[image], [u].[name], [u].[password], [u].[passwordHash], [u].[passwordSalt], [u].[phone_number], [u].[points]
+FROM [Users] AS [u]
+2025-04-06 18:31:42.328 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[sportx_api.Models.User, sportx_api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-06 18:31:42.371 +05:30 [INF] Executed action sportx_api.Controllers.AdminControllers.AdminControllers.GetUsers (sportx_api) in 547.0624ms
+2025-04-06 18:31:42.374 +05:30 [INF] Executed endpoint 'sportx_api.Controllers.AdminControllers.AdminControllers.GetUsers (sportx_api)'
+2025-04-06 18:31:42.377 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7214/api/AdminControllers/User - 200 null application/json; charset=utf-8 582.9316ms
+2025-04-06 18:31:58.411 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7214/api/Users/login - null null
+2025-04-06 18:31:58.420 +05:30 [INF] CORS policy execution successful.
+2025-04-06 18:31:58.424 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7214/api/Users/login - 204 null null 12.6641ms
+2025-04-06 18:31:58.428 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7214/api/Users/login - application/json 48
+2025-04-06 18:31:58.434 +05:30 [INF] CORS policy execution successful.
+2025-04-06 18:31:58.438 +05:30 [INF] Executing endpoint 'sportx_api.Controllers.UserControllers.UsersController.Login (sportx_api)'
+2025-04-06 18:31:58.507 +05:30 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(sportx_api.DTOs.UserDTOs.LoginDTO) on controller sportx_api.Controllers.UserControllers.UsersController (sportx_api).
+2025-04-06 18:31:58.523 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-04-06 18:31:58.543 +05:30 [INF] Executed action sportx_api.Controllers.UserControllers.UsersController.Login (sportx_api) in 31.6986ms
+2025-04-06 18:31:58.546 +05:30 [INF] Executed endpoint 'sportx_api.Controllers.UserControllers.UsersController.Login (sportx_api)'
+2025-04-06 18:31:58.548 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7214/api/Users/login - 400 null application/problem+json; charset=utf-8 120.3922ms
+2025-04-06 21:40:57.711 +05:30 [INF] User profile is available. Using 'C:\Users\Vishal Kochiyaniya\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-06 21:40:58.225 +05:30 [INF] Now listening on: https://localhost:7214
+2025-04-06 21:40:58.226 +05:30 [INF] Now listening on: http://localhost:5104
+2025-04-06 21:40:58.305 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-06 21:40:58.307 +05:30 [INF] Hosting environment: Development
+2025-04-06 21:40:58.309 +05:30 [INF] Content root path: C:\rku-projects\sportx\sportx_api
+2025-04-06 21:40:59.080 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7214/swagger/index.html - null null
+2025-04-06 21:40:59.591 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7214/swagger/index.html - 200 null text/html;charset=utf-8 520.8527ms
+2025-04-06 21:40:59.597 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7214/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-06 21:40:59.617 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7214/_framework/aspnetcore-browser-refresh.js - 200 16505 application/javascript; charset=utf-8 20.4344ms
+2025-04-06 21:40:59.621 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7214/_vs/browserLink - null null
+2025-04-06 21:40:59.719 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7214/_vs/browserLink - 200 null text/javascript; charset=UTF-8 98.7192ms
+2025-04-06 21:40:59.773 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7214/swagger/v1/swagger.json - null null
+2025-04-06 21:40:59.824 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7214/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 52.1539ms
+2025-04-06 23:33:25.646 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7214/api/Users/register - multipart/form-data; boundary=----WebKitFormBoundaryovpzLG03qDABSNoY 460
+2025-04-06 23:33:25.681 +05:30 [INF] CORS policy execution successful.
+2025-04-06 23:33:25.823 +05:30 [INF] Executing endpoint 'sportx_api.Controllers.UserControllers.UsersController.Register (sportx_api)'
+2025-04-06 23:33:25.879 +05:30 [INF] Route matched with {action = "Register", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(sportx_api.DTOs.UserDTOs.UserHashDTO) on controller sportx_api.Controllers.UserControllers.UsersController (sportx_api).
+2025-04-06 23:33:27.894 +05:30 [INF] Executed DbCommand (58ms) [Parameters=[@p0='?' (Size = 255), @p1='?' (Size = 255) (DbType = AnsiString), @p2='?' (Size = 4000), @p3='?' (Size = 255), @p4='?' (Size = 255), @p5='?' (Size = 8000) (DbType = Binary), @p6='?' (Size = 8000) (DbType = Binary), @p7='?' (Size = 20) (DbType = AnsiString), @p8='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([address], [email], [image], [name], [password], [passwordHash], [passwordSalt], [phone_number], [points])
+OUTPUT INSERTED.[user_id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2025-04-06 23:33:27.971 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Cart] ([user_id])
+OUTPUT INSERTED.[cart_id]
+VALUES (@p0);
+2025-04-06 23:33:27.985 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-04-06 23:33:27.992 +05:30 [INF] Executed action sportx_api.Controllers.UserControllers.UsersController.Register (sportx_api) in 2106.236ms
+2025-04-06 23:33:27.995 +05:30 [INF] Executed endpoint 'sportx_api.Controllers.UserControllers.UsersController.Register (sportx_api)'
+2025-04-06 23:33:28.004 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7214/api/Users/register - 200 null text/plain; charset=utf-8 2359.3993ms
+2025-04-06 23:33:39.871 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7214/api/Users/register - multipart/form-data; boundary=----WebKitFormBoundaryuztoEUrYU5OiAWLa 460
+2025-04-06 23:33:39.889 +05:30 [INF] CORS policy execution successful.
+2025-04-06 23:33:39.897 +05:30 [INF] Executing endpoint 'sportx_api.Controllers.UserControllers.UsersController.Register (sportx_api)'
+2025-04-06 23:33:39.901 +05:30 [INF] Route matched with {action = "Register", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(sportx_api.DTOs.UserDTOs.UserHashDTO) on controller sportx_api.Controllers.UserControllers.UsersController (sportx_api).
+2025-04-06 23:33:40.033 +05:30 [INF] Executed DbCommand (47ms) [Parameters=[@p0='?' (Size = 255), @p1='?' (Size = 255) (DbType = AnsiString), @p2='?' (Size = 4000), @p3='?' (Size = 255), @p4='?' (Size = 255), @p5='?' (Size = 8000) (DbType = Binary), @p6='?' (Size = 8000) (DbType = Binary), @p7='?' (Size = 20) (DbType = AnsiString), @p8='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([address], [email], [image], [name], [password], [passwordHash], [passwordSalt], [phone_number], [points])
+OUTPUT INSERTED.[user_id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2025-04-06 23:33:40.040 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Cart] ([user_id])
+OUTPUT INSERTED.[cart_id]
+VALUES (@p0);
+2025-04-06 23:33:40.047 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-04-06 23:33:40.050 +05:30 [INF] Executed action sportx_api.Controllers.UserControllers.UsersController.Register (sportx_api) in 145.7397ms
+2025-04-06 23:33:40.053 +05:30 [INF] Executed endpoint 'sportx_api.Controllers.UserControllers.UsersController.Register (sportx_api)'
+2025-04-06 23:33:40.055 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7214/api/Users/register - 200 null text/plain; charset=utf-8 185.1872ms
+2025-04-06 23:33:45.041 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7214/api/Users/register - multipart/form-data; boundary=----WebKitFormBoundaryrXbMd64oOip6iRbA 460
+2025-04-06 23:33:45.048 +05:30 [INF] CORS policy execution successful.
+2025-04-06 23:33:45.052 +05:30 [INF] Executing endpoint 'sportx_api.Controllers.UserControllers.UsersController.Register (sportx_api)'
+2025-04-06 23:33:45.054 +05:30 [INF] Route matched with {action = "Register", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(sportx_api.DTOs.UserDTOs.UserHashDTO) on controller sportx_api.Controllers.UserControllers.UsersController (sportx_api).
+2025-04-06 23:33:45.135 +05:30 [INF] Executed DbCommand (65ms) [Parameters=[@p0='?' (Size = 255), @p1='?' (Size = 255) (DbType = AnsiString), @p2='?' (Size = 4000), @p3='?' (Size = 255), @p4='?' (Size = 255), @p5='?' (Size = 8000) (DbType = Binary), @p6='?' (Size = 8000) (DbType = Binary), @p7='?' (Size = 20) (DbType = AnsiString), @p8='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([address], [email], [image], [name], [password], [passwordHash], [passwordSalt], [phone_number], [points])
+OUTPUT INSERTED.[user_id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2025-04-06 23:33:45.142 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Cart] ([user_id])
+OUTPUT INSERTED.[cart_id]
+VALUES (@p0);
+2025-04-06 23:33:45.147 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-04-06 23:33:45.149 +05:30 [INF] Executed action sportx_api.Controllers.UserControllers.UsersController.Register (sportx_api) in 94.021ms
+2025-04-06 23:33:45.152 +05:30 [INF] Executed endpoint 'sportx_api.Controllers.UserControllers.UsersController.Register (sportx_api)'
+2025-04-06 23:33:45.153 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7214/api/Users/register - 200 null text/plain; charset=utf-8 113.55ms
+2025-04-06 23:33:49.839 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7214/api/Users/register - multipart/form-data; boundary=----WebKitFormBoundary0jA5jzRsJCfZ5FcE 460
+2025-04-06 23:33:49.845 +05:30 [INF] CORS policy execution successful.
+2025-04-06 23:33:49.847 +05:30 [INF] Executing endpoint 'sportx_api.Controllers.UserControllers.UsersController.Register (sportx_api)'
+2025-04-06 23:33:49.850 +05:30 [INF] Route matched with {action = "Register", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(sportx_api.DTOs.UserDTOs.UserHashDTO) on controller sportx_api.Controllers.UserControllers.UsersController (sportx_api).
+2025-04-06 23:33:49.919 +05:30 [INF] Executed DbCommand (64ms) [Parameters=[@p0='?' (Size = 255), @p1='?' (Size = 255) (DbType = AnsiString), @p2='?' (Size = 4000), @p3='?' (Size = 255), @p4='?' (Size = 255), @p5='?' (Size = 8000) (DbType = Binary), @p6='?' (Size = 8000) (DbType = Binary), @p7='?' (Size = 20) (DbType = AnsiString), @p8='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([address], [email], [image], [name], [password], [passwordHash], [passwordSalt], [phone_number], [points])
+OUTPUT INSERTED.[user_id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2025-04-06 23:33:49.925 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Cart] ([user_id])
+OUTPUT INSERTED.[cart_id]
+VALUES (@p0);
+2025-04-06 23:33:49.930 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-04-06 23:33:49.932 +05:30 [INF] Executed action sportx_api.Controllers.UserControllers.UsersController.Register (sportx_api) in 79.0784ms
+2025-04-06 23:33:49.933 +05:30 [INF] Executed endpoint 'sportx_api.Controllers.UserControllers.UsersController.Register (sportx_api)'
+2025-04-06 23:33:49.934 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7214/api/Users/register - 200 null text/plain; charset=utf-8 96.4552ms
+2025-04-06 23:36:56.333 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7214/api/Users/login - multipart/form-data; boundary=----WebKitFormBoundaryXUpFSodtTxt1SbV7 249
+2025-04-06 23:36:56.348 +05:30 [INF] CORS policy execution successful.
+2025-04-06 23:36:56.349 +05:30 [INF] Executing endpoint 'sportx_api.Controllers.UserControllers.UsersController.Login (sportx_api)'
+2025-04-06 23:36:56.353 +05:30 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(sportx_api.DTOs.UserDTOs.LoginDTO) on controller sportx_api.Controllers.UserControllers.UsersController (sportx_api).
+2025-04-06 23:36:56.748 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[@__model_Email_0='?' (Size = 255) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[user_id], [u].[address], [u].[email], [u].[image], [u].[name], [u].[password], [u].[passwordHash], [u].[passwordSalt], [u].[phone_number], [u].[points]
+FROM [Users] AS [u]
+WHERE [u].[email] = @__model_Email_0
+2025-04-06 23:36:56.839 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType6`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-06 23:36:56.851 +05:30 [INF] Executed action sportx_api.Controllers.UserControllers.UsersController.Login (sportx_api) in 495.5938ms
+2025-04-06 23:36:56.867 +05:30 [INF] Executed endpoint 'sportx_api.Controllers.UserControllers.UsersController.Login (sportx_api)'
+2025-04-06 23:36:56.869 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7214/api/Users/login - 200 null application/json; charset=utf-8 536.4669ms
+2025-04-06 23:37:05.196 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7214/api/Users/login - multipart/form-data; boundary=----WebKitFormBoundaryXN7kko5YANjtPzip 249
+2025-04-06 23:37:05.202 +05:30 [INF] CORS policy execution successful.
+2025-04-06 23:37:05.204 +05:30 [INF] Executing endpoint 'sportx_api.Controllers.UserControllers.UsersController.Login (sportx_api)'
+2025-04-06 23:37:05.206 +05:30 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(sportx_api.DTOs.UserDTOs.LoginDTO) on controller sportx_api.Controllers.UserControllers.UsersController (sportx_api).
+2025-04-06 23:37:05.216 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__model_Email_0='?' (Size = 255) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[user_id], [u].[address], [u].[email], [u].[image], [u].[name], [u].[password], [u].[passwordHash], [u].[passwordSalt], [u].[phone_number], [u].[points]
+FROM [Users] AS [u]
+WHERE [u].[email] = @__model_Email_0
+2025-04-06 23:37:05.221 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType6`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-06 23:37:05.224 +05:30 [INF] Executed action sportx_api.Controllers.UserControllers.UsersController.Login (sportx_api) in 15.601ms
+2025-04-06 23:37:05.226 +05:30 [INF] Executed endpoint 'sportx_api.Controllers.UserControllers.UsersController.Login (sportx_api)'
+2025-04-06 23:37:05.230 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7214/api/Users/login - 200 null application/json; charset=utf-8 35.1964ms
+2025-04-06 23:37:06.886 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7214/api/Users/login - multipart/form-data; boundary=----WebKitFormBoundaryMujCNBcgCGbiJA8N 249
+2025-04-06 23:37:06.899 +05:30 [INF] CORS policy execution successful.
+2025-04-06 23:37:06.901 +05:30 [INF] Executing endpoint 'sportx_api.Controllers.UserControllers.UsersController.Login (sportx_api)'
+2025-04-06 23:37:06.902 +05:30 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(sportx_api.DTOs.UserDTOs.LoginDTO) on controller sportx_api.Controllers.UserControllers.UsersController (sportx_api).
+2025-04-06 23:37:06.909 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__model_Email_0='?' (Size = 255) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[user_id], [u].[address], [u].[email], [u].[image], [u].[name], [u].[password], [u].[passwordHash], [u].[passwordSalt], [u].[phone_number], [u].[points]
+FROM [Users] AS [u]
+WHERE [u].[email] = @__model_Email_0
+2025-04-06 23:37:06.917 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType6`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-06 23:37:06.920 +05:30 [INF] Executed action sportx_api.Controllers.UserControllers.UsersController.Login (sportx_api) in 15.1679ms
+2025-04-06 23:37:06.924 +05:30 [INF] Executed endpoint 'sportx_api.Controllers.UserControllers.UsersController.Login (sportx_api)'
+2025-04-06 23:37:06.926 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7214/api/Users/login - 200 null application/json; charset=utf-8 40.1616ms
+2025-04-06 23:37:07.258 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7214/api/Users/login - multipart/form-data; boundary=----WebKitFormBoundaryQEuiTAKjNvpd266m 249
+2025-04-06 23:37:07.265 +05:30 [INF] CORS policy execution successful.
+2025-04-06 23:37:07.267 +05:30 [INF] Executing endpoint 'sportx_api.Controllers.UserControllers.UsersController.Login (sportx_api)'
+2025-04-06 23:37:07.269 +05:30 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(sportx_api.DTOs.UserDTOs.LoginDTO) on controller sportx_api.Controllers.UserControllers.UsersController (sportx_api).
+2025-04-06 23:37:07.275 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__model_Email_0='?' (Size = 255) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[user_id], [u].[address], [u].[email], [u].[image], [u].[name], [u].[password], [u].[passwordHash], [u].[passwordSalt], [u].[phone_number], [u].[points]
+FROM [Users] AS [u]
+WHERE [u].[email] = @__model_Email_0
+2025-04-06 23:37:07.281 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType6`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-06 23:37:07.284 +05:30 [INF] Executed action sportx_api.Controllers.UserControllers.UsersController.Login (sportx_api) in 11.6029ms
+2025-04-06 23:37:07.287 +05:30 [INF] Executed endpoint 'sportx_api.Controllers.UserControllers.UsersController.Login (sportx_api)'
+2025-04-06 23:37:07.289 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7214/api/Users/login - 200 null application/json; charset=utf-8 31.8608ms
+2025-04-06 23:37:07.486 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7214/api/Users/login - multipart/form-data; boundary=----WebKitFormBoundaryWv8K2LR48qL5wXUS 249
+2025-04-06 23:37:07.491 +05:30 [INF] CORS policy execution successful.
+2025-04-06 23:37:07.493 +05:30 [INF] Executing endpoint 'sportx_api.Controllers.UserControllers.UsersController.Login (sportx_api)'
+2025-04-06 23:37:07.497 +05:30 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(sportx_api.DTOs.UserDTOs.LoginDTO) on controller sportx_api.Controllers.UserControllers.UsersController (sportx_api).
+2025-04-06 23:37:07.506 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__model_Email_0='?' (Size = 255) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[user_id], [u].[address], [u].[email], [u].[image], [u].[name], [u].[password], [u].[passwordHash], [u].[passwordSalt], [u].[phone_number], [u].[points]
+FROM [Users] AS [u]
+WHERE [u].[email] = @__model_Email_0
+2025-04-06 23:37:07.512 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType6`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-06 23:37:07.515 +05:30 [INF] Executed action sportx_api.Controllers.UserControllers.UsersController.Login (sportx_api) in 14.4658ms
+2025-04-06 23:37:07.518 +05:30 [INF] Executed endpoint 'sportx_api.Controllers.UserControllers.UsersController.Login (sportx_api)'
+2025-04-06 23:37:07.521 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7214/api/Users/login - 200 null application/json; charset=utf-8 35.4061ms
+2025-04-06 23:37:07.712 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7214/api/Users/login - multipart/form-data; boundary=----WebKitFormBoundaryvkUFqXLa7t8EM09M 249
+2025-04-06 23:37:07.720 +05:30 [INF] CORS policy execution successful.
+2025-04-06 23:37:07.723 +05:30 [INF] Executing endpoint 'sportx_api.Controllers.UserControllers.UsersController.Login (sportx_api)'
+2025-04-06 23:37:07.725 +05:30 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(sportx_api.DTOs.UserDTOs.LoginDTO) on controller sportx_api.Controllers.UserControllers.UsersController (sportx_api).
+2025-04-06 23:37:07.736 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__model_Email_0='?' (Size = 255) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[user_id], [u].[address], [u].[email], [u].[image], [u].[name], [u].[password], [u].[passwordHash], [u].[passwordSalt], [u].[phone_number], [u].[points]
+FROM [Users] AS [u]
+WHERE [u].[email] = @__model_Email_0
+2025-04-06 23:37:07.741 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType6`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-06 23:37:07.744 +05:30 [INF] Executed action sportx_api.Controllers.UserControllers.UsersController.Login (sportx_api) in 15.1208ms
+2025-04-06 23:37:07.748 +05:30 [INF] Executed endpoint 'sportx_api.Controllers.UserControllers.UsersController.Login (sportx_api)'
+2025-04-06 23:37:07.751 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7214/api/Users/login - 200 null application/json; charset=utf-8 39.8421ms
+2025-04-06 23:37:07.962 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7214/api/Users/login - multipart/form-data; boundary=----WebKitFormBoundaryJ3yHkW7Hzxd5lB7i 249
+2025-04-06 23:37:07.967 +05:30 [INF] CORS policy execution successful.
+2025-04-06 23:37:07.969 +05:30 [INF] Executing endpoint 'sportx_api.Controllers.UserControllers.UsersController.Login (sportx_api)'
+2025-04-06 23:37:07.971 +05:30 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(sportx_api.DTOs.UserDTOs.LoginDTO) on controller sportx_api.Controllers.UserControllers.UsersController (sportx_api).
+2025-04-06 23:37:07.981 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__model_Email_0='?' (Size = 255) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[user_id], [u].[address], [u].[email], [u].[image], [u].[name], [u].[password], [u].[passwordHash], [u].[passwordSalt], [u].[phone_number], [u].[points]
+FROM [Users] AS [u]
+WHERE [u].[email] = @__model_Email_0
+2025-04-06 23:37:07.987 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType6`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-06 23:37:07.989 +05:30 [INF] Executed action sportx_api.Controllers.UserControllers.UsersController.Login (sportx_api) in 14.1609ms
+2025-04-06 23:37:07.992 +05:30 [INF] Executed endpoint 'sportx_api.Controllers.UserControllers.UsersController.Login (sportx_api)'
+2025-04-06 23:37:07.993 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7214/api/Users/login - 200 null application/json; charset=utf-8 31.8033ms
+2025-04-06 23:37:13.546 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7214/api/Users/login - multipart/form-data; boundary=----WebKitFormBoundaryHqgkmYTkOugBl2Qv 249
+2025-04-06 23:37:13.552 +05:30 [INF] CORS policy execution successful.
+2025-04-06 23:37:13.554 +05:30 [INF] Executing endpoint 'sportx_api.Controllers.UserControllers.UsersController.Login (sportx_api)'
+2025-04-06 23:37:13.556 +05:30 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(sportx_api.DTOs.UserDTOs.LoginDTO) on controller sportx_api.Controllers.UserControllers.UsersController (sportx_api).
+2025-04-06 23:37:13.565 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@__model_Email_0='?' (Size = 255) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[user_id], [u].[address], [u].[email], [u].[image], [u].[name], [u].[password], [u].[passwordHash], [u].[passwordSalt], [u].[phone_number], [u].[points]
+FROM [Users] AS [u]
+WHERE [u].[email] = @__model_Email_0
+2025-04-06 23:37:13.569 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType6`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-06 23:37:13.571 +05:30 [INF] Executed action sportx_api.Controllers.UserControllers.UsersController.Login (sportx_api) in 13.3449ms
+2025-04-06 23:37:13.574 +05:30 [INF] Executed endpoint 'sportx_api.Controllers.UserControllers.UsersController.Login (sportx_api)'
+2025-04-06 23:37:13.576 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7214/api/Users/login - 200 null application/json; charset=utf-8 29.9745ms
+2025-04-06 23:38:15.870 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7214/api/Users/register - multipart/form-data; boundary=----WebKitFormBoundaryXY6UxLVVX5mWW9dx 460
+2025-04-06 23:38:15.886 +05:30 [INF] CORS policy execution successful.
+2025-04-06 23:38:15.888 +05:30 [INF] Executing endpoint 'sportx_api.Controllers.UserControllers.UsersController.Register (sportx_api)'
+2025-04-06 23:38:15.890 +05:30 [INF] Route matched with {action = "Register", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(sportx_api.DTOs.UserDTOs.UserHashDTO) on controller sportx_api.Controllers.UserControllers.UsersController (sportx_api).
+2025-04-06 23:38:15.916 +05:30 [INF] Executed DbCommand (21ms) [Parameters=[@p0='?' (Size = 255), @p1='?' (Size = 255) (DbType = AnsiString), @p2='?' (Size = 4000), @p3='?' (Size = 255), @p4='?' (Size = 255), @p5='?' (Size = 8000) (DbType = Binary), @p6='?' (Size = 8000) (DbType = Binary), @p7='?' (Size = 20) (DbType = AnsiString), @p8='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([address], [email], [image], [name], [password], [passwordHash], [passwordSalt], [phone_number], [points])
+OUTPUT INSERTED.[user_id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2025-04-06 23:38:15.926 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Cart] ([user_id])
+OUTPUT INSERTED.[cart_id]
+VALUES (@p0);
+2025-04-06 23:38:15.931 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-04-06 23:38:15.934 +05:30 [INF] Executed action sportx_api.Controllers.UserControllers.UsersController.Register (sportx_api) in 41.6691ms
+2025-04-06 23:38:15.945 +05:30 [INF] Executed endpoint 'sportx_api.Controllers.UserControllers.UsersController.Register (sportx_api)'
+2025-04-06 23:38:15.949 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7214/api/Users/register - 200 null text/plain; charset=utf-8 78.3901ms
+2025-04-06 23:38:20.055 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7214/api/Users/register - multipart/form-data; boundary=----WebKitFormBoundarySBoCTYTttwlx017N 460
+2025-04-06 23:38:20.060 +05:30 [INF] CORS policy execution successful.
+2025-04-06 23:38:20.062 +05:30 [INF] Executing endpoint 'sportx_api.Controllers.UserControllers.UsersController.Register (sportx_api)'
+2025-04-06 23:38:20.064 +05:30 [INF] Route matched with {action = "Register", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(sportx_api.DTOs.UserDTOs.UserHashDTO) on controller sportx_api.Controllers.UserControllers.UsersController (sportx_api).
+2025-04-06 23:38:20.076 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (Size = 255), @p1='?' (Size = 255) (DbType = AnsiString), @p2='?' (Size = 4000), @p3='?' (Size = 255), @p4='?' (Size = 255), @p5='?' (Size = 8000) (DbType = Binary), @p6='?' (Size = 8000) (DbType = Binary), @p7='?' (Size = 20) (DbType = AnsiString), @p8='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([address], [email], [image], [name], [password], [passwordHash], [passwordSalt], [phone_number], [points])
+OUTPUT INSERTED.[user_id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2025-04-06 23:38:20.086 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Cart] ([user_id])
+OUTPUT INSERTED.[cart_id]
+VALUES (@p0);
+2025-04-06 23:38:20.090 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-04-06 23:38:20.093 +05:30 [INF] Executed action sportx_api.Controllers.UserControllers.UsersController.Register (sportx_api) in 24.1568ms
+2025-04-06 23:38:20.095 +05:30 [INF] Executed endpoint 'sportx_api.Controllers.UserControllers.UsersController.Register (sportx_api)'
+2025-04-06 23:38:20.096 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7214/api/Users/register - 200 null text/plain; charset=utf-8 41.8321ms
+2025-04-06 23:38:27.141 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7214/api/Users/register - multipart/form-data; boundary=----WebKitFormBoundary6egeA2gyia91Kf5N 460
+2025-04-06 23:38:27.146 +05:30 [INF] CORS policy execution successful.
+2025-04-06 23:38:27.148 +05:30 [INF] Executing endpoint 'sportx_api.Controllers.UserControllers.UsersController.Register (sportx_api)'
+2025-04-06 23:38:27.150 +05:30 [INF] Route matched with {action = "Register", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(sportx_api.DTOs.UserDTOs.UserHashDTO) on controller sportx_api.Controllers.UserControllers.UsersController (sportx_api).
+2025-04-06 23:38:27.158 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 255), @p1='?' (Size = 255) (DbType = AnsiString), @p2='?' (Size = 4000), @p3='?' (Size = 255), @p4='?' (Size = 255), @p5='?' (Size = 8000) (DbType = Binary), @p6='?' (Size = 8000) (DbType = Binary), @p7='?' (Size = 20) (DbType = AnsiString), @p8='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([address], [email], [image], [name], [password], [passwordHash], [passwordSalt], [phone_number], [points])
+OUTPUT INSERTED.[user_id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2025-04-06 23:38:27.163 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Cart] ([user_id])
+OUTPUT INSERTED.[cart_id]
+VALUES (@p0);
+2025-04-06 23:38:27.166 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-04-06 23:38:27.169 +05:30 [INF] Executed action sportx_api.Controllers.UserControllers.UsersController.Register (sportx_api) in 15.5221ms
+2025-04-06 23:38:27.181 +05:30 [INF] Executed endpoint 'sportx_api.Controllers.UserControllers.UsersController.Register (sportx_api)'
+2025-04-06 23:38:27.182 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7214/api/Users/register - 200 null text/plain; charset=utf-8 41.3542ms
+2025-04-06 23:48:22.006 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7214/api/Users/register - multipart/form-data; boundary=----WebKitFormBoundaryGUx8YeUInX0X5kRu 462
+2025-04-06 23:48:22.065 +05:30 [INF] CORS policy execution successful.
+2025-04-06 23:48:22.068 +05:30 [INF] Executing endpoint 'sportx_api.Controllers.UserControllers.UsersController.Register (sportx_api)'
+2025-04-06 23:48:22.073 +05:30 [INF] Route matched with {action = "Register", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(sportx_api.DTOs.UserDTOs.UserHashDTO) on controller sportx_api.Controllers.UserControllers.UsersController (sportx_api).
+2025-04-06 23:48:22.108 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[@p0='?' (Size = 255), @p1='?' (Size = 255) (DbType = AnsiString), @p2='?' (Size = 4000), @p3='?' (Size = 255), @p4='?' (Size = 255), @p5='?' (Size = 8000) (DbType = Binary), @p6='?' (Size = 8000) (DbType = Binary), @p7='?' (Size = 20) (DbType = AnsiString), @p8='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([address], [email], [image], [name], [password], [passwordHash], [passwordSalt], [phone_number], [points])
+OUTPUT INSERTED.[user_id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2025-04-06 23:48:22.117 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Cart] ([user_id])
+OUTPUT INSERTED.[cart_id]
+VALUES (@p0);
+2025-04-06 23:48:22.122 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-04-06 23:48:22.124 +05:30 [INF] Executed action sportx_api.Controllers.UserControllers.UsersController.Register (sportx_api) in 47.3232ms
+2025-04-06 23:48:22.126 +05:30 [INF] Executed endpoint 'sportx_api.Controllers.UserControllers.UsersController.Register (sportx_api)'
+2025-04-06 23:48:22.128 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7214/api/Users/register - 200 null text/plain; charset=utf-8 122.8578ms
+2025-04-06 23:52:34.551 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7214/api/Users/register - multipart/form-data; boundary=----WebKitFormBoundaryDxF4o26hBIa5va9F 479
+2025-04-06 23:52:34.568 +05:30 [INF] CORS policy execution successful.
+2025-04-06 23:52:34.570 +05:30 [INF] Executing endpoint 'sportx_api.Controllers.UserControllers.UsersController.Register (sportx_api)'
+2025-04-06 23:52:34.572 +05:30 [INF] Route matched with {action = "Register", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(sportx_api.DTOs.UserDTOs.UserHashDTO) on controller sportx_api.Controllers.UserControllers.UsersController (sportx_api).
+2025-04-06 23:52:34.585 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[@p0='?' (Size = 255), @p1='?' (Size = 255) (DbType = AnsiString), @p2='?' (Size = 4000), @p3='?' (Size = 255), @p4='?' (Size = 255), @p5='?' (Size = 8000) (DbType = Binary), @p6='?' (Size = 8000) (DbType = Binary), @p7='?' (Size = 20) (DbType = AnsiString), @p8='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([address], [email], [image], [name], [password], [passwordHash], [passwordSalt], [phone_number], [points])
+OUTPUT INSERTED.[user_id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2025-04-06 23:52:34.597 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Cart] ([user_id])
+OUTPUT INSERTED.[cart_id]
+VALUES (@p0);
+2025-04-06 23:52:34.600 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-04-06 23:52:34.602 +05:30 [INF] Executed action sportx_api.Controllers.UserControllers.UsersController.Register (sportx_api) in 26.8132ms
+2025-04-06 23:52:34.605 +05:30 [INF] Executed endpoint 'sportx_api.Controllers.UserControllers.UsersController.Register (sportx_api)'
+2025-04-06 23:52:34.606 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7214/api/Users/register - 200 null text/plain; charset=utf-8 55.9541ms
+2025-04-06 23:52:41.380 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7214/api/Users/register - multipart/form-data; boundary=----WebKitFormBoundaryW7ZdVBAAnZHw6yYM 479
+2025-04-06 23:52:41.386 +05:30 [INF] CORS policy execution successful.
+2025-04-06 23:52:41.388 +05:30 [INF] Executing endpoint 'sportx_api.Controllers.UserControllers.UsersController.Register (sportx_api)'
+2025-04-06 23:52:41.389 +05:30 [INF] Route matched with {action = "Register", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(sportx_api.DTOs.UserDTOs.UserHashDTO) on controller sportx_api.Controllers.UserControllers.UsersController (sportx_api).
+2025-04-06 23:52:41.399 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (Size = 255), @p1='?' (Size = 255) (DbType = AnsiString), @p2='?' (Size = 4000), @p3='?' (Size = 255), @p4='?' (Size = 255), @p5='?' (Size = 8000) (DbType = Binary), @p6='?' (Size = 8000) (DbType = Binary), @p7='?' (Size = 20) (DbType = AnsiString), @p8='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([address], [email], [image], [name], [password], [passwordHash], [passwordSalt], [phone_number], [points])
+OUTPUT INSERTED.[user_id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2025-04-06 23:52:41.406 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Cart] ([user_id])
+OUTPUT INSERTED.[cart_id]
+VALUES (@p0);
+2025-04-06 23:52:41.412 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-04-06 23:52:41.414 +05:30 [INF] Executed action sportx_api.Controllers.UserControllers.UsersController.Register (sportx_api) in 21.8699ms
+2025-04-06 23:52:41.417 +05:30 [INF] Executed endpoint 'sportx_api.Controllers.UserControllers.UsersController.Register (sportx_api)'
+2025-04-06 23:52:41.418 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7214/api/Users/register - 200 null text/plain; charset=utf-8 39.0466ms
+2025-04-06 23:56:52.354 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7214/api/Users/login - multipart/form-data; boundary=----WebKitFormBoundary5Sk4nAwLdJb4pQCf 255
+2025-04-06 23:56:52.372 +05:30 [INF] CORS policy execution successful.
+2025-04-06 23:56:52.374 +05:30 [INF] Executing endpoint 'sportx_api.Controllers.UserControllers.UsersController.Login (sportx_api)'
+2025-04-06 23:56:52.377 +05:30 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(sportx_api.DTOs.UserDTOs.LoginDTO) on controller sportx_api.Controllers.UserControllers.UsersController (sportx_api).
+2025-04-06 23:56:52.387 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__model_Email_0='?' (Size = 255) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[user_id], [u].[address], [u].[email], [u].[image], [u].[name], [u].[password], [u].[passwordHash], [u].[passwordSalt], [u].[phone_number], [u].[points]
+FROM [Users] AS [u]
+WHERE [u].[email] = @__model_Email_0
+2025-04-06 23:56:52.392 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType6`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-06 23:56:52.394 +05:30 [INF] Executed action sportx_api.Controllers.UserControllers.UsersController.Login (sportx_api) in 14.4588ms
+2025-04-06 23:56:52.398 +05:30 [INF] Executed endpoint 'sportx_api.Controllers.UserControllers.UsersController.Login (sportx_api)'
+2025-04-06 23:56:52.400 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7214/api/Users/login - 200 null application/json; charset=utf-8 45.7272ms

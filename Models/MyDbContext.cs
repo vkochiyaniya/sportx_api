@@ -50,7 +50,7 @@ public partial class MyDbContext : DbContext
     public virtual DbSet<Voucher> Vouchers { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        => optionsBuilder.UseSqlServer("");
+        => optionsBuilder.UseSqlServer("Server=DESKTOP-DAPCLKP\\SQLEXPRESS;Database=NetProjectDB;Trusted_Connection=True;TrustServerCertificate=True;");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

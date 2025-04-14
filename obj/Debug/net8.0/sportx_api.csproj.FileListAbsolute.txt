@@ -158,4 +158,5 @@ C:\rku-projects\sportx\sportx_api\obj\Debug\net8.0\refint\sportx_api.dll
 C:\rku-projects\sportx\sportx_api\obj\Debug\net8.0\sportx_api.pdb
 C:\rku-projects\sportx\sportx_api\obj\Debug\net8.0\sportx_api.genruntimeconfig.cache
 C:\rku-projects\sportx\sportx_api\obj\Debug\net8.0\ref\sportx_api.dll
+C:\rku-projects\sportx\sportx_api\obj\Debug\net8.0\sportx_api.sourcelink.json
 C:\rku-projects\sportx\sportx_api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
